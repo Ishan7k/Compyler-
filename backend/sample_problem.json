@@ -1,0 +1,16 @@
+{
+  "problemId": "arr_01",
+  "title": "Two Sum (Target Pair Detection)",
+  "topic": "Arrays & Pointers",
+  "difficulty": "Easy",
+  "description": "Given an array of integers and a target sum, determine if there exist two numbers that sum up to target.",
+  "canonicalPatterns": {
+    "suboptimal": "BRUTE_FORCE_NESTED_LOOP (O(n^2))",
+    "optimal": "TWO_POINTER_CONVERGING (O(n))"
+  },
+  "testCases": [
+    { "input": "[2, 7, 11, 15], 9", "expectedOutput": "true" },
+    { "input": "[3, 2, 4], 6", "expectedOutput": "true" },
+    { "input": "[1, 5, 8], 15", "expectedOutput": "false" }
+  ]
+}

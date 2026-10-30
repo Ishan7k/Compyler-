@@ -1,0 +1,9 @@
+{
+  "curriculumDAG": [
+    { "id": "arrays_iteration", "name": "Basic Array Iteration", "prerequisites": [] },
+    { "id": "two_pointers", "name": "Two-Pointer Converging Pointers", "prerequisites": ["arrays_iteration"] },
+    { "id": "sliding_window", "name": "Sliding Window Optimization", "prerequisites": ["two_pointers"] },
+    { "id": "recursion_basics", "name": "Direct Recursion", "prerequisites": [] },
+    { "id": "memoization_dp", "name": "Memoization (Top-Down DP)", "prerequisites": ["recursion_basics"] }
+  ]
+}
